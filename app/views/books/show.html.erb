@@ -1,2 +1,16 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>詳細ページ</title>
+  </head>
+
+  <body>
+    <h3>Title:<%=@book.title%></h3>
+    <h3>Body：<%=@book.body%></h3>
+
+      <%=link_to 'Edit',edit_book_path(@book.id), class:"setting link"%>
+      |
+      <%=link_to 'Back',books_path,class:"setting link"%>
+  </body>
+</html>

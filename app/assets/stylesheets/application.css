@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+ /**{*/
+ /*  padding: 0;*/
+ /*  margin: 0;*/
+ /*  box-sizing: border-box;*/
+ /*}*/
+.start{
+  color:gray;
+}
+.link{
+  color: black;
+}
+.setting:hover{
+  background-color: black;
+  color: #fff;
+}
+
+ /*top*/
+ body{
+   padding-left: 40px
+ }
+ span{
+   font-weight: bold;
+ }
+ main{
+   padding-left: 40px;
+ }
+ p{
+   line-height: 3;
+ }
+
+ /*index*/
+ table{
+   padding-bottom: 30px;
+ }
+ td{
+   padding: 4px 5px;
+ }
+ .form-item{
+   margin-bottom: 10px
+ }
